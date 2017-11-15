@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HelloController {
-
+//Hello Git
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView getData() {
 
